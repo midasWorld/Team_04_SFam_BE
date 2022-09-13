@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
 
 env:
-  PROJECT_NAME: team04-cicd
-  DEPLOY_GROUP: team04-cicd-group
-  S3_BUCKET_NAME: team04-cicd-bucket
+  PROJECT_NAME: sfam-server-cicd
+  DEPLOY_GROUP: sfam-server-cicd-group
+  S3_BUCKET_NAME: sfam-server-bucket
   AWS_REGION: ap-northeast-2
 
 jobs:
